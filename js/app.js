@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     StickyNav();
     MobileMenu();
+    ScrollTop();
+    ActivateArrow();
 });
 
 function StickyNav() {
@@ -23,4 +25,31 @@ function MobileMenu() {
     menu.addEventListener('click', e => {
         nav.classList.toggle('show')
     })
+}
+
+function ScrollTop() {
+    const arrow = document.getElementById('TopPage');
+
+    arrow.addEventListener('click', e => {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    });
+}
+
+function ActivateArrow() {
+    const arrowBtn = document.getElementById("TopPage");
+    window.onscroll = function () {
+        scrollFunction(arrowBtn);
+    };
+}
+
+function scrollFunction(e) {
+    const arrowBtn = e;
+    if (arrowBtn != null) {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+            arrowBtn.style.display = "block";
+        } else {
+            arrowBtn.style.display = "none";
+        }
+    }
 }
