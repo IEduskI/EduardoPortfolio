@@ -53,6 +53,10 @@ h6 {
     transition: all 0.5s ease;
 }
 
+.no-margin {
+    padding: 0 !important;
+}
+
 /************************************ Navegacion *********************************************/
 .barra-nav {
     padding: 1rem 0;
@@ -80,7 +84,15 @@ h6 {
     align-items: center;
 }
 
-.navegacion a {
+.navIcon {
+    color: white;
+    text-decoration: none;
+    
+    transition: all .5s ease;
+}
+
+
+.navToogle a {
     font-size: 1.35rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -91,11 +103,15 @@ h6 {
     transition: all .5s ease;
 }
 
+.navegacion span {
+    color: #e67e22 ;
+}
+
 .navegacion h2 {
     text-transform: uppercase;
 }
 
-.navegacion a:hover {
+.navToogle a:hover {
     color: #007bff !important;
     transition: all .38s;
 }
@@ -128,13 +144,16 @@ h6 {
         padding: 0;
     }
 
-    .navegacion,
-    .navegacion a {
+    .navegacion {
         flex-wrap: wrap;
 
         color: black;
-        padding: .8rem 0;
         margin: 0 .8rem;
+    }
+    .navegacion a {
+        color: #000000;
+        padding: .8rem 0;
+        
     }
 
     #navToggler {
@@ -151,6 +170,7 @@ h6 {
     .navToogle:not(:not(.show)) {
         max-height: 15.8rem;
         overflow: hidden;
+        margin-bottom: 1rem;
         transition: max-height .35s ease;
     }
 
@@ -259,7 +279,7 @@ h6 {
     transition: all .3s;
 }
 
-/**************** Detaller personales ***********************/
+/**************** Detalles personales ***********************/
 .rows {
     position: relative;
     margin-top: -10rem;
@@ -292,6 +312,7 @@ h6 {
 .detalles-info h4 {
     margin-top: 0;
     margin-bottom: .5rem;
+    letter-spacing: .1rem;
 }
 
 .detalles-info p {
@@ -367,6 +388,14 @@ h6 {
 
     .card-servicio {
         margin: 2rem auto;
+    }
+
+    .card-servicio:first-of-type {
+        margin-top: 0;
+    }
+
+    .card-servicio:last-of-type {
+        margin-bottom: 0;
     }
 }
 
@@ -444,6 +473,10 @@ h6 {
     border-radius: .5rem;
 }
 
+.padding-hbd {
+    padding: 10rem 0 5rem 0;
+}
+
 /* Para Tablet */
 @media (max-width: 810px) {
     .habilidades-rows {
@@ -467,6 +500,14 @@ h6 {
 
     .etiqueta {
         right: 37%;
+    }
+    
+    .padding-hbd {
+        padding: 5rem 0 5rem 0;
+    }
+
+    .bg-color {
+        margin-top: 10rem;
     }
 }
 
@@ -724,4 +765,45 @@ h6 {
 
 .footer span {
     font-size: 1.4rem;
+}
+
+/******* Boton "Hacia arriba" ***********/
+.back-to-top {
+    z-index: 99;
+    position: fixed;
+    height: 4rem;
+    width: 4rem;
+    bottom: 3rem;
+    right: 3rem;
+    line-height: 3.6rem;
+    color: #161c2d;
+
+    background-color: rgba(0, 123, 255, 0.3) !important;
+    border: 1px solid rgba(0, 123, 255, 0.3) !important;
+    border-radius: .6rem;
+
+    cursor: pointer;
+    padding: 0;
+
+    transition: all 0.5s;
+}
+
+.flecha {
+    height: 1.6rem;
+    width: 1.6rem;
+    stroke-width: 1.6;
+    vertical-align: middle;
+}
+
+.back-to-top:hover svg {
+    stroke: white;
+    
+    transition: all 0.5s;
+}
+
+.back-to-top:hover {
+    background-color: #007bff !important;
+
+    transform: translateY(-2px);
+    transition: all 0.5s;
 }
