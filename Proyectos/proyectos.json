@@ -1,0 +1,44 @@
+{
+    "proyectos": [
+        {
+            "id": 1,
+            "nombre": "Rock & EDM Festival",
+            "categoria": "Musica",
+            "url": "https://festivalmusica-edacam.netlify.app/",
+            "imagenUrl": "img/projects/festival.png",
+            "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nisi repellat laboriosam inventore aperiam tempora quod omnis atque voluptate odio."
+        },
+        {
+            "id": 2,
+            "nombre": "Blog de Café",
+            "categoria": "Blog",
+            "url": "https://ieduski.github.io/Blog-Frontend/index.html",
+            "imagenUrl": "img/projects/blog-cafe.png",
+            "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nisi repellat laboriosam inventore aperiam tempora quod omnis atque voluptate odio."
+        },
+        {
+            "id": 3,
+            "nombre": "App Salon",
+            "categoria": "Aplicación",
+            "url": "https://appsalon-edacam.netlify.app/",
+            "imagenUrl": "img/projects/app-salon.png",
+            "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nisi repellat laboriosam inventore aperiam tempora quod omnis atque voluptate odio."
+        },
+        {
+            "id": 4,
+            "nombre": "FrontEnd Store",
+            "categoria": "Tienda",
+            "url": "https://ieduski.github.io/Ejemplo-FrontEnd/index.html",
+            "imagenUrl": "img/projects/Store.png",
+            "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nisi repellat laboriosam inventore aperiam tempora quod omnis atque voluptate odio."
+        },
+        {
+            "id": 5,
+            "nombre": "Bienes Raices",
+            "categoria": "Tienda",
+            "url": "https://bienes-raices-edacam.000webhostapp.com/",
+            "imagenUrl": "img/projects/Bienes-raices.png",
+            "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nisi repellat laboriosam inventore aperiam tempora quod omnis atque voluptate odio."
+        }
+    ]
+}
