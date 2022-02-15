@@ -606,7 +606,7 @@ h6 {
     opacity: 0;
     right: 0;
     left: 0;
-    top: 37%;
+    top: 40%;
     z-index: 2;
 
     width: 100%;
@@ -644,6 +644,7 @@ h6 {
     cursor: pointer;
 }
 
+/* Para tablets */
 @media (max-width: 810px) {
     .proyectos-descr {
         padding: 0 10rem;
@@ -806,4 +807,107 @@ h6 {
 
     transform: translateY(-2px);
     transition: all 0.5s;
+}
+
+.back-to-top:not(.mostrar) {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+
+/************* Mostrar proyecto ******************/
+.big-overlay {
+    position: fixed;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.big-overlay .imagen-galeria{
+    max-width: 70%;
+}
+
+.big-overlay .btn-cerrar{
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 5%;
+}
+
+.desc-proyecto {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: white;
+    width: 70%;
+    border-radius: 1rem;
+}
+
+.desc-proyecto a {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #d36d14;
+}
+
+.desc-proyecto p {
+    font-size: 1.6rem;
+    line-height: normal;
+}
+
+.desc-proyecto svg {
+    vertical-align: bottom;
+}
+
+.big-overlay .btn-cerrar:hover{
+    cursor: pointer;
+}
+
+.fijar-body {
+    overflow: hidden;
+}
+
+@media (max-width: 480px) {
+    .big-overlay .imagen-galeria{
+        max-width: 90%;
+        height: 25rem;
+    }
+
+    .desc-proyecto {
+        width: 90%;
+    }
+}
+
+@media (max-width: 810px) {
+    .big-overlay .imagen-galeria{
+        max-width: 90%;
+        max-height: 45rem;
+    }
+
+    .desc-proyecto {
+        width: 90%;
+    }
+    
+    .desc-proyecto a {
+        font-size: 1.8rem;
+    }
+    
+    .desc-proyecto p {
+        font-size: 1.6rem;
+    }
 }
