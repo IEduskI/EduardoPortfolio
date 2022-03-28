@@ -340,9 +340,10 @@ h6 {
 
 /********************** Main (Servicios) ***********************/
 .servicios-descr {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     padding: 0 20rem;
     line-height: normal;
+    text-align: center;
 }
 
 .servicios-rows {
@@ -365,7 +366,7 @@ h6 {
 }
 
 .info-servicio {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 1.5;
     padding-top: 0;
 }
@@ -411,7 +412,8 @@ h6 {
 }
 
 .habilidades p {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    text-align: center;
     line-height: normal;
     padding: 0 5rem;
     margin-bottom: 2rem;
@@ -534,7 +536,7 @@ h6 {
     padding-left: 20rem;
     padding-right: 20rem;
     line-height: normal;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .proyectos {
