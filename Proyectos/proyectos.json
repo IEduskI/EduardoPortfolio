@@ -6,7 +6,7 @@
             "categoria": "Musica",
             "url": "https://festivalmusica-edacam.netlify.app/",
             "imagenUrl": "img/projects/festival.png",
-            "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nisi repellat laboriosam inventore aperiam tempora quod omnis atque voluptate odio."
+            "descripcion": "Página web de un festival (ficticio) de música electrónica y rock donde se dan todos los detalles del evento."
         },
         {
             "id": 2,
@@ -14,7 +14,7 @@
             "categoria": "Blog",
             "url": "https://ieduski.github.io/Blog-Frontend/index.html",
             "imagenUrl": "img/projects/blog-cafe.png",
-            "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nisi repellat laboriosam inventore aperiam tempora quod omnis atque voluptate odio."
+            "descripcion": "Front End de un blog personal con temática del café."
         },
         {
             "id": 3,
@@ -22,7 +22,7 @@
             "categoria": "Aplicación",
             "url": "https://appsalon-edacam.netlify.app/",
             "imagenUrl": "img/projects/app-salon.png",
-            "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nisi repellat laboriosam inventore aperiam tempora quod omnis atque voluptate odio."
+            "descripcion": "Aplicación de reserva de citas para una peluquería o salón de belleza en la que se detallen los servicios que se ofrecen así como su costo."
         },
         {
             "id": 4,
@@ -30,7 +30,7 @@
             "categoria": "Tienda",
             "url": "https://ieduski.github.io/Ejemplo-FrontEnd/index.html",
             "imagenUrl": "img/projects/Store.png",
-            "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nisi repellat laboriosam inventore aperiam tempora quod omnis atque voluptate odio."
+            "descripcion": "Diseño de una tienda de ropa con temática de tecnologías para Front End."
         },
         {
             "id": 5,
@@ -38,7 +38,7 @@
             "categoria": "Tienda",
             "url": "https://bienes-raices-edacam.000webhostapp.com/",
             "imagenUrl": "img/projects/Bienes-raices.png",
-            "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nisi repellat laboriosam inventore aperiam tempora quod omnis atque voluptate odio."
+            "descripcion": "Sitio web completo para publicar anuncios sobre bienes raíces. Incluye login para que el administrador genere nuevos anuncios y estos aparezcan automáticamente en el sitio."
         }
     ]
 }
